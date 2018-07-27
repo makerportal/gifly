@@ -9,7 +9,7 @@ def gif_maker(gif_name,png_dir,gif_indx,num_gifs,dpi=90):
     # save each .png for GIF
     # lower dpi gives a smaller, grainier GIF; higher dpi gives larger, clearer GIF
     plt.savefig(png_dir+'frame_'+str(gif_indx)+'_.png',dpi=dpi)
-    plt.close('all')
+    plt.close('all') # comment this out if you're only updating the x,y data
 
     if gif_indx==num_gifs-1:
         # sort the .png files based on index used above
