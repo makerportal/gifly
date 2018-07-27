@@ -20,4 +20,4 @@ num_gifs == total number of .png files to be used in the GIF.
 
 dpi == size of each .png file to be save and used in the creation of the GIF.
 
-<img src="https://github.com/engineersportal/gifly/blob/master/wind_turbine_dist.gif" width="100" height="100" />
+<img src="https://github.com/engineersportal/gifly/blob/master/wind_turbine_dist.gif" width="500" height="100" />
